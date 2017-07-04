@@ -1,0 +1,17 @@
+*{margin: 0;padding: 0}
+/*整体菜单的长宽和背景色, 水平居中*/
+#nav{width: 600px;height: 40px;margin: 0 auto;background-color: #eee;}
+/*消除ul和li的默认样式*/
+.oneUl li{list-style: none;}
+/*设置一级li的左浮动，垂直居中*/
+.oneUl>li{float: left;line-height: 40px;}
+/*消除a的默认样式，文字颜色，设置为块级元素以便可以设置长宽，设置每一项宽度，文字居中*/
+a{text-decoration: none;color: #868686;display: block;width: 90px;text-align: center}
+/*设置二级菜单的高度，背景色，上下间距*/
+.twoUl li a{height:40px;background-color: #eee;margin-top: 2px;}
+/*设置一级菜单经过时的样式*/
+.oneUl>li a:hover{background-color: #868686;color: #fff;}
+/*设置二级菜单默认隐藏*/
+.twoUl{display: none;}
+/*设置二级菜单经过时显示*/
+/*.oneUl li:hover ul{display: block;}*/

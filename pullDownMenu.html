@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>形形色色的下拉菜单</title>
+    <link type="text/css" rel="stylesheet" href="css/pullDownMenu/pullDownMenu.css">
+    <script type="text/javascript" src="js/pullDownMenu/pullDownMenu.js"></script>
+    <!--以下是jquery的实现方式-->
+    <!--<script type="text/javascript" src="js/jquery-1.9.1.js"></script>-->
+    <!--<script type="text/javascript">-->
+        <!--$(function(){-->
+            <!--$('.oneLi').mouseover(function(){-->
+                <!--$(this).children('ul').show();-->
+            <!--})-->
+            <!--$('.oneLi').mouseout(function(){-->
+                <!--$(this).children('ul').hide();-->
+            <!--})-->
+        <!--})-->
+    <!--</script>-->
+</head>
+<body>
+    <div id="nav">
+        <ul class="oneUl">
+            <li><a href="#">首页</a></li>
+            <li class="oneLi"><a href="#">课程大厅</a>
+                <ul class="twoUl">
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">JQuery</a></li>
+                </ul>
+            </li>
+            <li class="oneLi"><a href="#">学习中心</a>
+                <ul class="twoUl">
+                    <li><a href="#">视频学习</a></li>
+                    <li><a href="#">案例学习</a></li>
+                    <li><a href="#">交流平台</a></li>
+                </ul>
+            </li>
+            <li><a href="#">经典案例</a></li>
+            <li><a href="#">关于我们</a></li>
+        </ul>
+    </div>
+</body>
+</html>
